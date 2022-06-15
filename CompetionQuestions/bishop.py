@@ -24,6 +24,7 @@ for _ in range(int(input())):
                 unq.append(atk[m])
     flag = True
     for k in unq:
+        flag = True
         for m in atk:
             tp = abs(m[0] - k[0])
             tp2 = abs(m[1] - k[1])
